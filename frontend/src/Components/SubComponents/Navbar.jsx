@@ -1,5 +1,5 @@
-//Imports
 import { useEffect, useState } from "react"
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -38,13 +38,13 @@ const Navbar = () => {
     return (
         <div className="fixed top:[{top}px] z-10 w-full h-[6vw] flex justify-between items-center px-20" style={navbarStyle}>
 
-            <div className="logo flex items-center">
+            <NavLink to="/" className="logo flex items-center">
 
                 <div className="main-logo w-24 h-24 flex">
                     <img src="logo-white.png" alt="" />
                 </div>
 
-            </div>
+            </NavLink>
 
 
             {/* The navTexts */}
@@ -56,7 +56,9 @@ const Navbar = () => {
                     )
                 })}
 
-                <button className="font-semibold bg-[#2F4C99] px-5 py-2 rounded-md ml-6">Sign In</button>
+                <NavLink to="/user_login">
+                    <button className="font-semibold bg-[#2F4C99] px-5 py-2 rounded-md ml-6">Sign In</button>
+                </NavLink>
 
             </div>
 

@@ -18,7 +18,7 @@ const Footer = () => {
 
         <footer className="w-full min-h-32 bg-[#00091d] pt-20 pb-5 px-20">
 
-            <div className="w-full min-h-32 py-20 border-b-[1px] border-t-[1px] border-t-slate-800 border-b-slate-800 flex justify-around">
+            <div className="w-full min-h-32 py-20 border-b-[1px] border-t-[1px] border-t-slate-800 border-b-slate-800 flex justify-start pl-20">
 
                 <div className="flex flex-col">
                     <div><img className="w-20" src="logo-white.png" alt="dtclogo" /></div>
@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
 
                 {/* First links */}
-                <div className="flex flex-col gap-3">
+                {/* <div className="flex flex-col gap-3">
                     <div><h1 className="text-2xl tracking-wide font-semibold">HEADING1</h1></div>
 
                     <div className="text-zinc-400">
@@ -42,10 +42,10 @@ const Footer = () => {
                         <h1>two</h1>
                         <h1>three</h1>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Second links */}
-                <div className="flex flex-col gap-3">
+                {/* <div className="flex flex-col gap-3">
                     <div><h1 className="text-2xl tracking-wide font-semibold">HEADING2</h1></div>
 
                     <div className="text-zinc-400">
@@ -53,10 +53,10 @@ const Footer = () => {
                         <h1>two</h1>
                         <h1>three</h1>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Third links */}
-                <div className="flex flex-col gap-3">
+                {/* <div className="flex flex-col gap-3">
                     <div><h1 className="text-2xl tracking-wide font-semibold">HEADING3</h1></div>
 
                     <div className="text-zinc-400">
@@ -64,7 +64,7 @@ const Footer = () => {
                         <h1>two</h1>
                         <h1>three</h1>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
